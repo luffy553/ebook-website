@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +17,8 @@
             <h1>BOOK VERSE!</h1>
         </div>
         <div class="auth-links">
-            <a href="signin.html" class="btn-auth">Sign In</a>
-            <a href="signin.html" class="btn-auth">Sign Up</a>
+            <a href="../landing/login/homepage.php" class="btn-auth">Sign In</a>
+            <a href="../landing/login/homepage.php" class="btn-auth">Sign Up</a>
         </div>
     </header>
 

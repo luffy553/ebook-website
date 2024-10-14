@@ -9,6 +9,6 @@ foreach ($files as $file) {
                 <input type='hidden' name='filename' value='$file'>
                 <button type='submit'>Delete</button>
             </form>
-          </li>";
+        </li>";
 }
 ?>

@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #ffcc00; /* Yellow text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1a1a1a; /* Darker black background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffcc00; /* Yellow title */
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: #ffcc00; /* Yellow icons */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 40px;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #ffcc00; /* Yellow text inside inputs */
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+input[type="submit"],
+button {
+    background-color: #ffcc00; /* Yellow buttons */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #e6b800; /* Darker yellow on hover */
+}
+
+.or {
+    color: #ffcc00;
+    margin: 10px 0;
+}
+
+.icons i {
+    color: #ffcc00; /* Yellow social icons */
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #e6b800;
+}
+
+.links p {
+    color: #ffcc00;
+}
+
+.links button {
+    background: none;
+    border: none;
+    color: #ffcc00;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.recover a {
+    color: #ffcc00;
+}
+
+.recover a:hover {
+    color: #e6b800;
+}
